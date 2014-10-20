@@ -54,13 +54,11 @@ Nicola Asuni
 * PDF/A-1b support.
 
 #Installation
-------------
 
   1. Run: `php composer.phar require psyipm/zf-tcpdf:dev-master`
   2. Add `TcPdf` to the enabled modules list in your application.config.php
 
 #Usage
-------------
 
 ```php
 $view = new ViewModel();
@@ -78,5 +76,4 @@ $pdf->Output("pdf-name.pdf", 'I');
 ```
 
 #Documentation
---------------
 For more detailed instructions visit TCPDF developer website [tcpdf.org](http://www.tcpdf.org/index.php)
