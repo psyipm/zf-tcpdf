@@ -1,0 +1,23 @@
+{
+    "name": "psyipm/zf-tcpdf",
+    "description": "Zend module wrapper for tcpdf class created by Nicola Asuni. TCPDF is a PHP class for generating PDF files on-the-fly without requiring external extensions. This library includes also a class to extract data from existing PDF documents and classes to generate 1D and 2D barcodes in various formats.",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "license": "GNU Lesser General Public License",
+    "authors": [
+        {
+            "name": "ipm",
+            "email": "psy.ipm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "TcPdf": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}
